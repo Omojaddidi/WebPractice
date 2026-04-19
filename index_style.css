@@ -1,11 +1,59 @@
-h1
+/*
+    This is the style code for our index page
+*/
+
+/*
+    Note 1:
+    For now our sizes will scale with viewport and rem
+    later on we will implement the calc and/or clamp
+*/
+
+body
 {
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 1rem;
+    background-color: rgb(20, 22, 46);
+    color: aliceblue;
+    text-shadow: .2rem .3rem .2rem rgb(165, 138, 208);
 }
 
+a
+{
+    text-shadow: .2rem .2rem .4rem rgb(78, 55, 128);
+}
+/*
+    Hyperlinks have a hover state.
+    When we hover over a link we make it a mint green color.
+*/
+a:hover
+{
+    color: rgb(164, 231, 164);
+}
 p
 {
     font-size: 2.5rem;
+}
+
+.header_title
+{
+    display: block;
+    background-color: rgb(95, 65, 145);
+    margin: 3vw auto 4vw auto;
+    width: 50vw;
+    
+}
+.header_text
+{
+    display: block;
+    font-size: 4vw;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+.header_image
+{
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: auto;
 }
