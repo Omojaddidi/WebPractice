@@ -1,0 +1,38 @@
+/*
+    Here is the stylesheet for our grid practice
+*/
+body
+{
+    background-color: rgb(230, 255, 223);
+    font-size: 2vh;
+}
+.header_title
+{
+    font-size: 2vh;
+    background-color: rgb(100, 255, 141);
+}
+
+.css_grid_1
+{
+    display: grid;
+    /*auto fills content, then remaining space*/
+    grid-template-columns: auto auto auto;
+}
+.css_grid_2
+{
+    display: grid;
+    /*fr is fractional units and fills based on the grid*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.red
+{
+    background-color: lightcoral;
+}
+.blue
+{
+    background-color: lightblue;
+}
+.green
+{
+    background-color: lightgreen;
+}

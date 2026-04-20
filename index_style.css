@@ -17,15 +17,19 @@ body
 
 a
 {
-    text-shadow: .2rem .2rem .4rem rgb(78, 55, 128);
-}
+    text-shadow: .2rem .2rem .4rem rgb(78, 55, 128);}
 /*
     Hyperlinks have a hover state.
     When we hover over a link we make it a mint green color.
+    Unvisted links would be lightblue.
 */
 a:hover
 {
     color: rgb(164, 231, 164);
+}
+a:link
+{
+    color: lightblue;
 }
 p
 {
